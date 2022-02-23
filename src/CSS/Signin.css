@@ -1,0 +1,126 @@
+.signinbackground {
+  /* background-image: url("background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  /* width: 100vw; */
+  height: 100vh;
+  padding: 30px;
+}
+.box {
+  width: 477px;
+  height: 520px;
+
+  border-radius: 10px;
+  box-shadow: 0 0 6px 0 rgb(0 0 0 / 16%);
+  border: solid 1px #e0e0eb;
+  background-color: #4949e3;
+  margin: 0 auto;
+}
+.insidebox {
+  margin: 3rem;
+}
+.Mainlogo {
+  margin: 0 4rem;
+  height: 33px;
+  object-fit: contain;
+}
+.Rocket {
+  width: 232px;
+  height: 147px;
+  margin: 4px 4rem;
+  object-fit: contain;
+}
+.label {
+  margin: 0 241px 13px 0;
+  font-family: Montserrat-Bold;
+  font-size: 13px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.01px;
+  color: #ffffff;
+}
+input {
+  font-family: Montserrat-medium;
+  font-size: 5px;
+}
+.form-group {
+  position: relative;
+}
+.form-control {
+  font-size: 0.8rem;
+  border-radius: 10px;
+}
+.Forgot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 26px 0 0;
+}
+.Forgot-password {
+  font-family: Montserrat-medium;
+  font-size: 12px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.Signinbutton {
+  width: 80px;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffac33;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  font-family: Montserrat-Bold;
+  font-size: 14px;
+}
+.form-group {
+  position: relative;
+}
+.usericon {
+  position: absolute;
+  bottom: 10px;
+  right: 14px;
+  width: 14px;
+  height: 16px;
+}
+.lockicon {
+  position: absolute;
+  bottom: 10px;
+  right: 14px;
+  width: 14px;
+  height: 16px;
+}
+p {
+  margin-top: 0;
+  color: #ffffff;
+  font-size: 9px;
+  margin-top: 4px;
+
+  font-family: "Montserrat-regular";
+}
+.center {
+  margin: 0 auto;
+}
+@media only screen and (max-width: 575.98px) {
+  .box {
+    width: 377px;
+    height: 520px;
+  }
+  .label {
+    margin: 0 202px 13px 0;
+  }
+  .signinbackground {
+    padding: 0;
+  }
+  .Mainlogo {
+    margin: 0;
+  }
+  .Rocket {
+    margin: 0 2rem;
+  }
+}

@@ -1,0 +1,70 @@
+.Headerlogo {
+  width: 206px;
+  height: 31px;
+  object-fit: contain;
+}
+.headerbar {
+  background-color: #4949e3;
+  height: 60px;
+  padding: 0 1.25rem;
+}
+.Headerprofile {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+.unlock {
+  width: 12px;
+  height: 13px;
+  margin: 2px 14px 0 0;
+  object-fit: contain;
+}
+li {
+  list-style: none;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.dropdown-menu[data-bs-popper] {
+  left: -129px;
+}
+.Divider {
+  width: 173px;
+  height: 1px;
+  margin: 2px 4px;
+  border: solid 1px #e9e9e9;
+}
+.dropdown-item {
+  font-family: Montserrat-medium;
+  font-size: 12px;
+  font-weight: 500;
+}
+.logout {
+  text-decoration: none;
+  font-family: Montserrat-medium;
+  font-size: 12px;
+  font-weight: 500;
+  color: #191f2e;
+}
+
+.dropdown-menu::before {
+  border-bottom: 9px solid rgba(0, 0, 0, 0.2);
+  border-left: 9px solid rgba(0, 0, 0, 0);
+  border-right: 9px solid rgba(0, 0, 0, 0);
+  content: "";
+  display: inline-block;
+  right: 5%; /* position */
+  position: absolute;
+  top: -8px;
+}
+
+.dropdown-menu::after {
+  border-bottom: 8px solid #ffffff;
+  border-left: 9px solid rgba(0, 0, 0, 0);
+  border-right: 9px solid rgba(0, 0, 0, 0);
+  content: "";
+  display: inline-block;
+  right: 5%; /* position */
+  position: absolute;
+  top: -7px;
+}
